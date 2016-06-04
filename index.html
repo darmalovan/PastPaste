@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PastPaste</title>
+    <link rel="stylesheet" type="text/css" href="photon/dist/css/photon.css"/>
+    <link rel="stylesheet" type="text/css" href="main.css"/>
+</head>
+<body>
+
+<div class="window">
+    <header class="toolbar toolbar-header">
+            <input id="search" class="form-control padd" type="text"
+                   placeholder="Search for item"
+                   style="margin-bottom: 20px;margin-top: 20px; padding-right: 30px">
+    </header>
+    <div class="window-content">
+                <ul id="clipboard-history" class="list-group">
+                    <!--<li class="clip-item list-group-item" text="todo move to global handler? clipboard.writeText(clipText); osa.executeFile('appleScript.script'); };-->
+<!--"><div class="media-body clip-item-text">test!</div></li>-->
+
+                        <!--<li class="clip-item list-group-item" text="todo move to global handler? clipboard.writeText(clipText); osa.executeFile('appleScript.script'); };-->
+<!--"><div class="media-body clip-item-text">test22!</div></li>-->
+                </ul>
+    </div>
+
+    <footer class="toolbar toolbar-footer">
+        <h5 class="text-center"><span id="showing-item-count"></span> / <span
+                id="total-item-count"></span> items</h5>
+    </footer>
+</div>
+</body>
+<script>require('./app.js');</script>
+</html>
